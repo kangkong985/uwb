@@ -1,0 +1,13 @@
+uwb\os_cpu_c.o: ..\uCOS-II\port\os_cpu_c.c
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Include/core_cm4.h
+uwb\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
+uwb\os_cpu_c.o: ../Drivers/CMSIS/Include/core_cm4.h
+uwb\os_cpu_c.o: ..\uCOS-II\core\ucos_ii.h
+uwb\os_cpu_c.o: ..\uCOS-II\core\os_cfg.h
+uwb\os_cpu_c.o: ..\uCOS-II\port\os_cpu.h

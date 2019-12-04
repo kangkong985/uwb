@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: admin 微软用户, 微软中国, LIC=WHY8T-RX3M1-FI152-96VST-RA7N1-1PDPN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      Segger\JL2CM3.dll V2.99.16.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+F:\zhangyusheng\Project\UWB\UWB第三版\UWB--第三版带距离校正\UWB\MDK-ARM\UWB.uvprojx
+Project File Date:  06/26/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'UWB'
+compiling main.c...
+../Src/main.c(315): warning:  #177-D: variable "err" was declared but never referenced
+  	INT8U err;
+../Src/main.c(440): warning:  #177-D: variable "FloatNum" was declared but never referenced
+  	float FloatNum = 0;
+../Src/main.c(133): warning:  #550-D: variable "dist" was set but never used
+  static double distance,dist,dist2;
+../Src/main.c(150): warning:  #550-D: variable "TAG_MsgNum" was set but never used
+  static uint32_t TAG_MsgNum = 0;
+../Src/main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=20576 RO-data=1080 RW-data=360 ZI-data=14424  
+FromELF: creating hex file...
+"UWB\UWB.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\zhangyusheng\Project\UWB\UWB第三版\UWB--第三版带距离校正\UWB\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

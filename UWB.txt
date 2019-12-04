@@ -1,0 +1,74 @@
+Configuration	UWB
+STM32CubeMX 	5.1.0
+Date	03/28/2019
+MCU	STM32L412KBUx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+9	PA3	GPIO_Input	D_RST
+10	PA4	GPIO_Output	D_CS
+11	PA5	SPI1_SCK	
+12	PA6	SPI1_MISO	
+13	PA7	SPI1_MOSI	
+14	PB0	GPIO_EXTI0	D_IRQ
+15	PB1	GPIO_Output	D_WAKEUP
+19	PA9	USART1_TX	
+20	PA10	USART1_RX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+9	PA3	GPIO_Input	D_RST
+10	PA4	GPIO_Output	D_CS
+11	PA5	SPI1_SCK	
+12	PA6	SPI1_MISO	
+13	PA7	SPI1_MOSI	
+14	PB0	GPIO_EXTI0	D_IRQ
+15	PB1	GPIO_Output	D_WAKEUP
+19	PA9	USART1_TX	
+20	PA10	USART1_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : UWB
+Project Folder : F:\zhangyusheng\Project\UWB1\UWB
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_L4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
